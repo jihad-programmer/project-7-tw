@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .btn{
+        @apply  bg-[#F44335] text-white md:p-2 rounded-lg hover:scale-105 transition-all duration-300 cursor-pointer text-sm md:text-base hover:font-semibold; 
+    }
+
+    .li{
+        @apply hover:scale-105 transition-all hover:font-semibold cursor-pointer dark:text-white;
+    }
+}
